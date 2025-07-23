@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  #result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    text-align: center;
+  }
+
+  /* 📱 Responsive for mobile */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+
+    input, button {
+      font-size: 16px;
+    }
+
+    table, th, td {
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 6px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+  }
+</style>
+<style>
+  body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 20px;
+    background: #f0f4f8;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #0a558c;
+  }
+  input, button, select {
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  .btn-clear {
+    background: #f56565;
+    color: white;
+    border: none;
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) {
+    body {
+      margin: 10px;
+    }
+    .container {
+      padding: 15px;
+    }
+    table, th, td {
+      font-size: 14px;
+    }
+  }
+</style>
